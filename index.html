@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vietnam Travel — Trang chủ</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link chỉ hiện khi focus -->
+  <a class="skip-link" href="#main">Skip to Main Content</a>
+
+  <header class="site-header">
+    <nav aria-label="Chính">
+      <a class="logo" href="index.html">VietnamTravel</a>
+      <ul class="nav">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <img src="https://images.pexels.com/photos/33949885/pexels-photo-33949885.jpeg?cs=srgb&fm=jpg"
+           alt="Bãi biển Đà Nẵng buổi sáng với sóng nhẹ và bầu trời trong" />
+      <div class="hero-text">
+        <h1>Khám phá Việt Nam</h1>
+        <p>Biển xanh, núi non, phố cổ và ẩm thực tuyệt vời.</p>
+        <a class="btn" href="gallery.html">Xem bộ sưu tập</a>
+      </div>
+    </section>
+
+    <section class="features grid-2">
+      <article class="card">
+        <h2>Điều hướng dễ dùng</h2>
+        <p>Thanh điều hướng (flex) hỗ trợ bàn phím, focus rõ ràng.</p>
+      </article>
+      <article class="card">
+        <h2>Truy cập thuận tiện</h2>
+        <p>Skip link dùng <code>:focus</code> + <code>position</code> chỉ hiện khi cần.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Vietnam Travel Demo · <a href="https://validator.w3.org/" target="_blank" rel="noopener">W3C Validator</a> · <a href="https://wave.webaim.org/" target="_blank" rel="noopener">WAVE</a></p>
+  </footer>
+</body>
+</html>
